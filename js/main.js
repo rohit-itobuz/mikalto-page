@@ -7,7 +7,7 @@ function nextSlide(n) {
 }
 
 function currentSlide(n) {
-  displaySlides((slideIndex = n));
+  displaySlides((slideIndex = n));z
 }
 
 function displaySlides(n) {

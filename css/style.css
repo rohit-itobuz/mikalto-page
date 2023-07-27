@@ -24,14 +24,19 @@
   display: none;
 }
 
-.activiy-top-right img {
-  max-width: 100%;
-  height: 27.8rem;
+.acyivity-top-left,
+.acyivity-bottom-right {
+  height: 100%;
 }
 
-.activiy-bottom-left img {
+.acyivity-top-right img {
   max-width: 100%;
-  height: 27.4rem;
+  height: 100%;
+}
+
+.acyivity-bottom-left img {
+  max-width: 100%;
+  height: 100%;
 }
 
 .experience-matter img {
@@ -180,13 +185,10 @@ button:hover {
     width: 60%;
   }
 
-  .activiy-top-right,
-  .activiy-top-left {
-    width: 50%;
-  }
-
-  .activiy-bottom-right,
-  .activiy-bottom-left {
+  .acyivity-top-right,
+  .acyivity-top-left,
+  .acyivity-bottom-right,
+  .acyivity-bottom-left {
     width: 50%;
   }
 
@@ -250,10 +252,6 @@ button:hover {
     margin-left: 4rem;
   }
 
-  .activiy-top-right img {
-    height: 25.2rem;
-  }
-
   .experience-matter {
     width: 22%;
   }
@@ -288,22 +286,13 @@ button:hover {
     margin-left: 14rem;
   }
 
-  .activiy-top-right img {
-    width: 100rem;
-  }
-
-  .activiy-top .activiy-top-left {
+  .acyivity-top .acyivity-top-left {
     padding-top: 5.1rem !important;
     padding-bottom: 5.1rem !important;
   }
 
-  .activiy-bottom-left img {
-    width: 100rem;
-  }
-
-  .activiy-bottom .activiy-bottom-right {
-    padding-top: 3.65rem !important;
-    padding-bottom: 3.65rem !important;
+  .acyivity-bottom-right {
+    height: 30rem;
   }
 
   .hello-more {
