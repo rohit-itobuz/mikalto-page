@@ -24,21 +24,6 @@
   display: none;
 }
 
-.acyivity-top-left,
-.acyivity-bottom-right {
-  height: 100%;
-}
-
-.acyivity-top-right img {
-  max-width: 100%;
-  height: 100%;
-}
-
-.acyivity-bottom-left img {
-  max-width: 100%;
-  height: 100%;
-}
-
 .experience-matter img {
   width: 100%;
 }
@@ -146,6 +131,33 @@ button:hover {
 }
 
 @media (min-width: 768px) {
+  .acyivity-top-left {
+    height: 54.9vh;
+  }
+
+  .acyivity-bottom-right {
+    height: 65.2vh !important;
+  }
+
+  .acyivity-top-right {
+    height: 55vh;
+    width: 50vw;
+  }
+
+  .acyivity-top-right img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .acyivity-bottom-left {
+    height: 65.2vh;
+    width: 50vw;
+  }
+  .acyivity-bottom-left img {
+    width: 100%;
+    height: 100%;
+  }
+
   .welcome-right img {
     display: block;
   }
@@ -291,8 +303,8 @@ button:hover {
     padding-bottom: 5.1rem !important;
   }
 
-  .acyivity-bottom-right {
-    height: 30rem;
+  .reconnect {
+    margin-top: 5rem;
   }
 
   .hello-more {
